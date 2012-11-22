@@ -18,7 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		plugindir	%{dokudir}/lib/plugins/%{plugin}
 
 %description
-Lists all pages that link back to a given page using the first headline as link title.
+This plugin let you store 256 bit AES encrypted passwords in your
+DokuWiki pages. The password can be decrypted by clicking them
+(Javascript must be enabled).
 
 %prep
 %setup -q -n %{plugin}
